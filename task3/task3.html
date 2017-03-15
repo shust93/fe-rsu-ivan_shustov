@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML">
+  <title>task1 </title>
+</head>
+<body>
+  <h1>My search</h1>
+  <!--<form action="findbygoogle.php" METHOD="POST">
+       <table>
+		<tr>
+			<td><label for="search1">I want to found</label></td>
+			<td>
+				<input id="search1" type="text" name="WhatFind">
+				<input type="image" src="./1.ico" alt="Submit" width="17" height="17">
+			</td>
+		</tr>
+  </form>-->
+  <form>
+	<input id="search" type="text" name="WhatFind">
+		<script>
+			function someFunc(){
+			var val = document.getElementById("search").value;
+			return val;
+			}
+		</script>
+	<img src="./1.ico" alt="search" width="17" height="17" onClick='location.href="https://yandex.ru/search/?lr=11&msid=1489600009.10273.22905.418&text="+someFunc()'>
+	<br>
+	<input type="button" value="Найти" onClick='location.href="https://yandex.ru/search/?lr=11&msid=1489600009.10273.22905.418&text="+someFunc()'>
+  </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML">
+  <title>task1 </title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action=" http://httpbin.org">
+	<fieldset>
+       <legend>Personal data</legend>
+	   <table>
+		<tr>
+			<td><label for="firstname1">First name</label></td>
+			<td><input id="firstname1" type="text" name="firstname"></td>
+		</tr>
+		<tr>
+			<td><label for="surname1">Surname</label></td>
+			<td><input id="surname1" type="text" name="surname"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"><label >Sex</label></td>
+			<td> <input type="radio" name="sex" value="male" checked>Male</td>
+		</tr>
+		<tr>
+			<td><input type="radio" name="sex" value="female">Female</td>
+		</tr>
+	   </table>
+	</fieldset>   
+	<fieldset>
+       <legend>Contact Information</legend>
+	   <table>
+		<tr>
+			<td><label for="site1">Site</label></td>
+			<td><input id="site1" type="text" name="site"></td>
+		</tr>
+		<tr>
+			<td><label for="email1">E-mail</label></td>
+			<td><input id="email1" type="text" name="email"></td>
+		</tr>
+		<tr>
+			<td><label for="phone1">Phone</label></td>
+			<td><input id="phone1" type="number" name="phone"></td>
+		</tr>
+	   </table>
+	</fieldset> 
+	<input type="submit" value="Send(Post)" formmethod="post"><input type="submit" value="Send(Get)" >
+  </form>
+</body>
+</html>

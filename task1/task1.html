@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="HTML">
+  <title>task1 </title>
+</head>
+<body>
+  <ul>
+	<li><a href="https://www.google.ru">Searching</a></li>
+	<li><a href="https://mail.google.com">Mail</a></li>
+	<li><a href="https://www.youtube.com">Youtube</a></li>
+	<li><a href="https://maps.google.ru">Card</a></li>
+  </ul>
+  <ol start="5">
+	<li>Searching</li>
+	<li>Mail</li>
+	<li>Youtube</li>
+	<li>Card</li>
+	<li>Yet
+		<ul>
+			<li>Flights</li>
+			<li>Auto</li>
+			<li>Poster</li>
+			<li>Blogs</li>
+		</ul>
+	</li>
+  </ol>
+  <br>
+  <dl>
+	<dt><i>Tag</i></dt>
+	<dd>element of Hypertext Markup Language</dd>
+	
+	<dt><i>The Semantic Web</i></dt>
+	<dd>The description of development of the World Wide Web the aim of which is to provide information in a form suitable for machine processing</dd>
+  </dl>
+  <hr>
+  <h4 align="center">CSS Generated content for pseudo-elements</h4>
+  <hr>
+  <table width="100%" border="1">
+    <tr>
+      <th>IE</th>
+      <th>FireFox</th>
+      <th>Chrome</th>
+      <th>Safari</th>
+      <th>Opera</th>
+      <th>IOS Safari</th>
+      <th>Opera mini</th>
+      <th>Android Browser</th>
+      <th>Chrome for Android</th>
+    </tr>
+    <tr>
+      <td rowspan="2"></td>
+      <td rowspan="4"></td>
+      <td>27</td>
+      <td rowspan="3"></td>
+      <td rowspan="5"></td>
+      <td rowspan="4"></td>
+      <td rowspan="5"></td>
+      <td></td>
+      <td rowspan="5"></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>33</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>34</td>
+      <td>51</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>thirty</td>
+      <td>35</td>
+      <td>61</td>
+      <td></td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>eleven</td>
+      <td>31</td>
+      <td>36</td>
+      <td>7</td>
+      <td>23</td>
+      <td>71</td>
+      <td>7</td>
+      <td>44</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td colspan="9">Method of displaying text or images before or after the gaven element's contents using the: before and after pceudo-elements</td>
+    </tr>
+  </table>
+  <hr>
+  <form action=" http://httpbin.org">
+      <fieldset>
+       <legend>Personal data</legend>
+       <label>Surname <input type="text" name="surname" > </label>
+       <br><br>
+       <label>First name <input type="text" name="firstname"></label>
+       <br><br>
+       <label>Middle name <input type="text" name="middlename"></label>
+	   <br><br>
+	   You are 
+	   <input type="radio" name="sex" value="male" checked>Male
+       <input type="radio" name="sex" value="female">Female
+	   <br><br>
+	   <label>Age <input type="number" name="age" min="18" max="101"> </label>
+	   <br><br>
+	   Country of Residence 
+	   <select name="country" >
+	    <option value="Russia">Russia</option>
+		<option value="Ukraine">Ukraine</option>
+		<option value="Belarus">Belarus</option>
+	   </select>
+	   <br><br>
+	   City<input type="checkbox" name="Ryazan" > Ryazan
+	   <input type="checkbox" name="moscow" > Moscow
+        <br><br>
+		Photography  <input type="file" name="datafile" size="40">
+		<hr>
+		Title
+		<select size="7" multiple name="vacancy[]">
+			<option disabled>Technologies</option>
+			<option value="Web Master">		Web Master</option>
+			<option value="Database Administrator">		Database Administrator</option>
+			<option value="Computer-aided design">		Computer-aided design</option>
+			<option disabled>Finance</option>
+			<option value="Economic Planing">		Economic Planing</option>
+			<option value="Management accaunting">		Management accaunting</option>
+		</select>
+		<br><br>
+		Salary <input type="range" min="15000" max="100000" step="1000" value="35000">
+		<br><br>
+		<textarea name="text" placeholder="Tell us about yourself..." rows="10" cols="50" ></textarea>
+		
+     </fieldset>
+    
+     <fieldset>
+		<legend>Contact information</legend>
+		<label>Site <input type="text" name="site" > </label>
+		<br><br>
+	    <label>Email <input type="text" name="email" > </label>
+		<br><br>
+	    <label>Phone <input type="number" name="phone" > </label>
+		<br><br>
+    </fieldset>
+	<br>
+	<label>Password <input type="password" name="password" required> </label>
+       <br><br>
+	<input type="submit" value="Отправить">
+	<INPUT TYPE="RESET" VALUE ="Сброс">
+  </form>
+</body>
+</html>
