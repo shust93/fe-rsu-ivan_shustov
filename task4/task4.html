@@ -7,7 +7,7 @@
 </head>
 <body>
   <h1>The Form</h1>
-  <form action=" http://httpbin.org">
+  <form action= "http://httpbin.org/post" method="post">
       <fieldset>
        <table>
 		<tr>
@@ -24,10 +24,10 @@
 		</tr>
 		<tr>
 			<td rowspan="2"><label >Sex</label></td>
-			<td> <input type="radio" name="sex" value="male" checked>Male</td>
+			<td> <input id="male" type="radio" name="sex" value="male" checked><label for="male">Male</label></td>
 		</tr>
 		<tr>
-			<td><input type="radio" name="sex" value="female">Female</td>
+			<td><input id="female" type="radio" name="sex" value="female"><label for="female">Female</label></td>
 		</tr>
 		<tr>
 			<td><label for="age1">Age</label></td>
@@ -45,8 +45,8 @@
 		</tr>
 		<tr>
 			<td>City</td>
-			<td><input type="checkbox" name="Ryazan" > Ryazan
-				<input type="checkbox" name="moscow" > Moscow
+			<td><input id="ryazan" type="checkbox" name="Ryazan" ><label for="ryazan"> Ryazan</label>
+				<input id="moscow" type="checkbox" name="moscow" ><label for="moscow"> Moscow</label>
 			</td>
 		</tr>
 		<tr>

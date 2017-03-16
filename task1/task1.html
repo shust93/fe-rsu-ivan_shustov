@@ -99,7 +99,7 @@
     </tr>
   </table>
   <hr>
-  <form action=" http://httpbin.org">
+  <form action= "http://httpbin.org/post" method="post">
       <fieldset>
        <legend>Personal data</legend>
        <label>Surname <input type="text" name="surname" > </label>
@@ -109,8 +109,8 @@
        <label>Middle name <input type="text" name="middlename"></label>
 	   <br><br>
 	   You are 
-	   <input type="radio" name="sex" value="male" checked>Male
-       <input type="radio" name="sex" value="female">Female
+	   <input id="male" type="radio" name="sex" value="male" checked><label for="male">Male</label>
+       <input id="female" type="radio" name="sex" value="female"><label for="female">Female</label>
 	   <br><br>
 	   <label>Age <input type="number" name="age" min="18" max="101"> </label>
 	   <br><br>
@@ -121,8 +121,8 @@
 		<option value="Belarus">Belarus</option>
 	   </select>
 	   <br><br>
-	   City<input type="checkbox" name="Ryazan" > Ryazan
-	   <input type="checkbox" name="moscow" > Moscow
+	   City<input id="ryazan" type="checkbox" name="Ryazan" ><label for="ryazan"> Ryazan</label>
+		<input id="moscow" type="checkbox" name="moscow" ><label for="moscow"> Moscow</label>
         <br><br>
 		Photography  <input type="file" name="datafile" size="40">
 		<hr>
@@ -153,7 +153,7 @@
 		<br><br>
     </fieldset>
 	<br>
-	<label>Password <input type="password" name="password" required> </label>
+	<label>Password <input type="password" name="password"  required> </label>
        <br><br>
 	<input type="submit" value="Отправить">
 	<INPUT TYPE="RESET" VALUE ="Сброс">
