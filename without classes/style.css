@@ -1,0 +1,25 @@
+table { 
+  text-align: center;
+  width: 60%; 
+  border-spacing: 2px;
+}
+table tr:not(:first-child) > td:first-child {
+	text-transform: capitalize;	
+}
+table tr:first-child {
+	text-transform: uppercase;
+}
+tr {
+	height: 40px;
+}
+table tr:nth-child(2n + 1) {
+  background: #cccccc; 
+} 
+table tr:nth-child(2n + 2) {
+  background: #eeeeee; 
+} 
+table  tr:not(:first-child):hover {
+  background: rgba(96, 125, 139, 0.5);
+  cursor: pointer;
+}
+

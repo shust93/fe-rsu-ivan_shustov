@@ -1,0 +1,69 @@
+
+.table{ 
+  /*width: 580px;*/ 
+  border-spacing: 2px;
+}
+.table tr:not(:first-child) > td:first-child {
+	text-transform: capitalize;		
+}
+.table tr:nth-child(2n + 2) {
+  background: #f2f6fa; 
+} 
+.table tr:nth-child(2n + 1) {
+  background: #e8edf4; 
+} 
+.table  tr:not(:first-child):hover {
+  background: #e2e5e9;
+  cursor: pointer;
+}
+  #first{
+	text-transform: uppercase;
+	height: 21px;
+	font-size:10px;
+}
+
+
+tr:not(:first-child) {
+	height: 50px;
+	text-align: center;
+}
+tr:not(:first-child)>td:nth-child(1) {
+	width: 114px;
+	text-align:left;
+	padding-left:16px;
+	font-size:15px;
+}
+tr:not(:first-child)>td:nth-child(2) {
+	width: 118px;
+	text-align:left;
+	padding-left:15px;
+	font-size:16px;
+}
+tr:not(:first-child)>td:nth-child(3) {
+	width: 175px;
+	text-align:left;
+	padding-left:15px;
+	font-size:15px;
+}
+tr:not(:first-child)>td:last-child {
+	width: 99px;
+	text-align:left;
+	padding-left:16px;
+	font-size:17px;
+}
+
+
+tr:first-child  {
+	text-align:center;
+	background: #e3eaf3; 
+}
+
+
+ tr(:first-child) > td {
+	text-align: center;
+}
+
+
+
+
+
