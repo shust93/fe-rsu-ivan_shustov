@@ -1,0 +1,24 @@
+.div {
+	margin: auto;
+	max-width:50%;
+	border: solid 5px cyan;
+	border-radius:5px;
+}
+
+.header {
+	padding:10px;
+	background-color:yellow;
+	font-size:17px;
+}
+
+.text {
+	position:relative;
+	padding:5px 10px 5px 10px;
+}
+.text:after {
+    content: ''; 
+    position: absolute; 
+    left: 20px; top: 0px; 
+    border: 10px solid transparent; 
+    border-top: 10px solid yellow; 
+   }

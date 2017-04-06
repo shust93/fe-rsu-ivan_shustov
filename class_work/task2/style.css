@@ -1,0 +1,25 @@
+
+.text {
+	width:50%;
+	margin:auto;
+	position: relative;
+	top:50px;
+	background-color:#88b7d5;
+	color:white;
+	padding:0px 10px 5px 10px;
+	border: solid 3px #c2e1f5;
+	
+}
+
+ 
+    .text:before, .text:after {
+    content: ''; 
+    position: absolute;
+    left: 50%; top: -38px;
+    border: 18px solid transparent;
+    border-bottom: 18px solid #c2e1f5;
+   }
+   .text:after {
+    border-bottom: 18px solid #88b7d5;
+    top: -35px; 
+   }

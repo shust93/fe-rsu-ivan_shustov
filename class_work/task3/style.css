@@ -1,0 +1,35 @@
+
+.caption {
+	position: relative;
+	left:20px;;
+	width:150px;
+	height:35px;
+	background-color:#a68bdd;
+	color:#8262d0;
+	border: #8262d0 solid 1px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	font-size:30px;
+	font-family:sans-serif;
+	text-align:center;
+	box-shadow: 0px 0px 4px 2px rgba(130,98,208,1);
+}
+
+.text {
+	
+	left:28px;
+	max-width:95%;
+	height: 300px;
+	margin:auto;
+	position: absolute;
+	background-color:#a68bdd;
+	color:#8262d0;
+	padding:0px 10px 5px 10px;
+	border: solid 3px #a68bdd;
+	border-radius:10px;
+	border-top-left-radius:0;
+	font-size:22px;
+	font-family:sans-serif;
+	box-shadow: 0px 0px 6px 3px rgba(130,98,208,1);
+	
+}

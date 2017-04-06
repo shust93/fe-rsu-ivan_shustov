@@ -1,0 +1,144 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+.div {
+	overflow:hidden;
+	position: absolute;
+	top:0px;
+	width:100%;
+	height:30px;
+	background: url('./bg.png');
+	background-color: #cccccc;	
+}
+
+button {
+position: relative;
+background-color:blue;
+border: 0px;	
+}
+
+.menu {
+	position:relative;
+float:left;
+}
+
+.rightmenu {
+	position:relative;
+	float:right;
+}
+.menu button:nth-child(1) {
+	position: relative;
+	background-position: 20px, 20px;
+	width:60px;
+	height:30px;	
+	
+	background: url('./mail.png') no-repeat;
+	background-position: 10px, 20px;
+	background-color: #3677ad;
+}
+
+.menu button:nth-child(2) {
+	position: relative;
+	background-position: 20px, 20px;
+	width:75px;
+	height:30px;
+	background: url('./page.png') no-repeat;
+	background-position: 10px, 20px;
+	background-color: #3677ad;
+}
+.menu button:nth-child(3) {
+	position: relative;
+	background-position: center, center;
+	width:50px;
+	height:30px;
+	background: url('./user.png') no-repeat;
+	background-position: 10px, 20px;
+	background-color: #3677ad;
+}
+.menu button:nth-child(4) {
+	position: relative;
+	background-position: center, center;
+	width:30px;
+	height:30px;
+	background: url('./flag.png') no-repeat;
+	background-position: center, center;
+	background-color: #3677ad;
+}
+.menu button:nth-child(5) {
+	position: relative;
+	
+	width:30px;
+	height:30px;
+	background: url('./checked.png') no-repeat;
+	background-position: center, center;
+	background-color: #3677ad;
+}
+.menu  button:hover {
+background-color:red;
+cursor:pointer;
+}
+
+
+
+.rightmenu button:nth-child(1) {
+	
+	position: relative;
+	background-position: 20px, 20px;
+	width:30px;
+	height:30px;		
+	background: url('./refresh.png') no-repeat;
+	background-position: center, center;
+	background-color: #3677ad;
+}
+.rightmenu button:nth-child(2) {
+
+	position: relative;
+	background-position: 20px, 20px;
+	width:30px;
+	height:30px;		
+	background: url('./widget.png') no-repeat;
+	background-position: center, center;
+	background-color: #3677ad;
+}
+.rightmenu button:nth-child(3) {
+	content: "Exit";
+	color:white;
+	position: relative;
+	background-position: 120px, 20px;
+	bottom:11px;
+	width:120px;
+	height:30px;		
+	background: url('./exit.png') no-repeat;
+	background-position: 100px, 20px;
+	background-color: black;
+}
+.rightmenu  button:hover {
+background-color:red;
+cursor:pointer;
+}
+
+p {
+	position: absolute;
+	left:28px;
+	bottom:2px;
+	color:white;
+	background-color:red;
+font-size:10px;
+}
+.p1 {
+	widTh:12px;
+
+	border-radius:7px;
+}
+.p2 {
+	widTh:40px;
+
+	border-radius:20px/5px;
+}
+.p3 {
+	widTh:12px;
+	
+	border-radius:6px;
+}
