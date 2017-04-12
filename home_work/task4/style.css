@@ -1,0 +1,288 @@
+body {
+	margin:auto;
+	width:1200px;
+}
+.flex .hover {
+	position:relative;
+	top:2.6%;
+	width:95.2%;
+	height:95%;
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	padding-top:30%;
+	visibility:hidden;
+	
+	box-sizing:border-box;
+}
+.float .hover {
+	position:relative;
+	top:2.8%;
+	left:2.7%;
+	width:95%;
+	height:95%;
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	padding-top:30%;
+	visibility:hidden;
+	
+	box-sizing:border-box;
+}
+.inlinebox .hover {
+	position:relative;
+	top:2.5%;
+	left:2.7%;
+	width:95%;
+	height:95%;
+	background-color: rgba(0,0,0,0.5);
+	text-align:center;
+	padding-top:30%;
+	visibility:hidden;
+	
+	box-sizing:border-box;
+}
+
+.blockhead {
+	padding-left:40px;
+	margin-top:15px;
+	font-size:20px;
+}
+.green {
+	color:#32CD32;
+	font-size:19px;	
+}
+.white {
+	color:white;
+	font-size:22px;
+}
+span {
+	color:rgba(255,255,255,0.5);
+}
+
+.flex {
+margin-bottom:30px;
+margin-top:30px;
+height:100%;
+max-width:1200px;
+max-height:100%;
+display:inline-flex;
+flex-wrap:wrap;
+justify-content:flex-start;
+align-content:space-between;
+}
+
+.float {
+margin-bottom:30px;
+margin-top:30px;
+max-width:1200px;
+height:100%;
+width:100%;
+overflow:auto;
+}
+.inlinebox {
+margin-bottom:30px;
+margin-top:30px;
+	height:100%;
+	max-width:1200px;
+}
+
+.flex  li{
+list-style-type:none;
+width:300px;
+height:400px;
+margin:6px;
+margin-bottom:30px;
+margin-top:30px;
+}
+.float  li{
+float:left;
+list-style-type:none;
+width:300px;
+height:400px;
+margin:6px;
+margin-bottom:30px;
+margin-top:30px;
+}
+.inlinebox  li{
+	display:inline-block;
+	list-style-type:none;
+	width:300px;
+	height:400px;
+	margin:6px;
+	margin-bottom:30px;
+margin-top:30px;
+	box-sizing:border-box;
+}
+.flex  .pic1 {
+	display:flex;
+	justify-content:space-around;
+	align-content:space-around;
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+
+
+.flex  .pic2 {
+	display:flex;
+	justify-content:space-around;
+	align-content:space-around;
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.float .pic1 {
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.inlinebox  .pic1 {
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+	box-sizing:border-box;
+}
+
+.float .pic2 {
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.inlinebox  .pic2 {
+	width:100%;
+	height:90%;
+	border: solid 1px lightgray;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+	box-sizing:border-box;
+}
+
+.flex  .button {
+position:relative;
+top:5px;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+.float .button {
+position:relative;
+top:5px;
+}
+.inlinebox  .button {
+	box-sizing:border-box;
+	position:relative;
+	top:5px;
+}
+.button {
+	height: 60px;
+}
+
+.flex  button {
+font-size:18px;
+height: 80%;
+align-content: flex-end;
+color:gray;
+background-color:white;
+border: solid 1px lightgray;
+border-radius:3px;
+padding-left:20px;
+padding-right:20px;
+}
+.float  button{
+font-size:18px;
+height: 80%;
+color:gray;
+background-color:white;
+border: solid 1px lightgray;
+border-radius:3px;
+padding-left:20px;
+padding-right:20px;
+}	
+.inlinebox  button {
+box-sizing:border-box;
+display: inline-block;
+font-size:18px;
+height: 80%;
+color:gray;
+background-color:white;
+border: solid 1px lightgray;
+border-radius:3px;
+padding-left:20px;
+padding-right:20px;
+}
+
+.float  button:first-child {
+float:left;
+}
+.float  button:last-child {
+float:right;
+}
+.inlinebox  button:first-child {
+	margin-left:0px;
+	margin-right:46px;
+}
+.inlinebox  button:last-child {
+	margin-left:20px;
+}
+
+.flex  .pic1:hover {
+	background-blend-mode: multiply;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;		
+}
+.flex  .pic2:hover {
+	background-blend-mode: multiply;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.float .pic1:hover {
+	background-blend-mode: multiply;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.inlinebox  .pic1:hover {
+	background-blend-mode: multiply;
+	background: url('./th1.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+	
+}
+.inlinebox  .pic2:hover {
+	background-blend-mode: multiply;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+	
+}
+
+.float .pic2:hover {
+	background-blend-mode: multiply;
+	background: url('./th2.png') 95% 95% no-repeat;
+	background-size: 95% 95%;
+	background-position: center center;	
+}
+.pic1:hover .hover{
+	visibility:visible;
+}
+.pic2:hover .hover{
+	visibility:visible;
+}
+
