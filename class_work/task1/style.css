@@ -1,24 +1,47 @@
 .div {
+	padding:5px;
 	margin: auto;
-	max-width:50%;
-	border: solid 5px cyan;
-	border-radius:5px;
+	max-width:100%;
+	border: solid 1px #6bc987;
+	border-radius:6px;
+	box-sizing:border-box;
+}
+.div2 {
+	background-color:#6bc987;
+	padding:1px;
+	margin: auto;
+	max-width:100%;
+	box-sizing:border-box;
 }
 
 .header {
 	padding:10px;
-	background-color:yellow;
+	background: linear-gradient(to top,#ffc200, #ffeb08);
 	font-size:17px;
+	box-sizing:border-box;
 }
 
 .text {
+	background-color:white;
 	position:relative;
 	padding:5px 10px 5px 10px;
+	box-sizing:border-box;
 }
 .text:after {
     content: ''; 
     position: absolute; 
     left: 20px; top: 0px; 
     border: 10px solid transparent; 
-    border-top: 10px solid yellow; 
+    border-top: 10px solid #ffc200;
+
    }
+
+.outer {
+	background-color:#a0dfd1;
+	margin: auto;
+	max-width:50%;
+	border: solid 1px #6bc987;
+	border-radius:6px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-sizing:border-box;
+}

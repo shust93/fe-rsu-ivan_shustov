@@ -240,6 +240,11 @@ float:right;
 	margin-left:20px;
 }
 
+button:hover {
+	background-color:#95CF66;
+	color: white;
+}
+
 .flex  .pic1:hover {
 	background-blend-mode: multiply;
 	background: url('./th1.png') 95% 95% no-repeat;
