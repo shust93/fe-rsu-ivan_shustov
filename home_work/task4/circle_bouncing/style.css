@@ -1,0 +1,23 @@
+.block {
+	position: relative;
+	margin: 0 auto;
+	background-color:#cad8d0;
+	width: 500px;
+	height: 300px;
+	border: solid black 2px;
+}
+.circle {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color:red;
+	border-radius: 25px;
+	animation: moveX 3.5s linear 0s infinite alternate, moveY 3.04s linear 0s infinite alternate;
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 450px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 250px; }
+}

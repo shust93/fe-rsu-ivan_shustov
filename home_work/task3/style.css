@@ -1,0 +1,12 @@
+p {
+	margin:15px, 5px;
+	padding:10px;
+	background-color:#cad8d0;	
+}
+@media screen and (max-width: 500px){
+	p {
+		margin:1px, 1px;
+		padding:4px;
+		width:500px;
+	}
+}

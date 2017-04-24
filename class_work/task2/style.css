@@ -1,0 +1,41 @@
+div {
+	margin-bottom:40px;
+	color:blue;
+}
+
+button {
+	box-sizing: border-box;
+	padding-left:2px;
+	padding-right:2px;
+	color: blue;
+	font-size:15px;
+	border: 0px;
+	background-color: transparent;
+	transition-duration: 1s;
+}
+button:not(:last-child):hover {
+	border-right: solid white 2px;
+	border-bottom:solid blue 2px;
+	cursor:pointer;
+}
+button:not(:last-child):not(:hover) {
+	border-right: solid red 2px;
+	border-bottom:solid white 2px;		
+}
+
+	
+#p1, #p2 {
+	max-width:300px;
+	margin:20px;
+}
+#p1 {
+	font-size:20px;
+	background-color: #569099;
+	color: #ffffff;
+	padding:15px;
+}
+#p2 {
+	background-color: #cad8d0;
+	color: black;
+	padding: 15px 10px 10px;
+}
