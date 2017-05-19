@@ -1,0 +1,38 @@
+button.accordion {
+	display: block;
+    background-color: #f6f6f6;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 500px;
+    text-align: left;
+    border: solid 1px #c5c5c5;
+    outline: none;
+    transition: 0.7s;
+	margin-top: 2px;
+	border-radius: 5px;
+}
+
+div.panel {
+    padding: 15px;
+    background-color: white;
+    display: none;
+	width: 450px;
+	transition: 0.4s;
+	display: none;
+	/*background-color: #f6f6f6; */
+	/*color: black;*/
+	
+}
+
+.nonactive {
+	
+	color: black;
+
+}
+
+.active{
+	
+	color: black;
+
+}
